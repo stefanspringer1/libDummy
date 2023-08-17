@@ -16,7 +16,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/stefanspringer1/SwiftXML", from: "1.2.310"),
-        //.package(path: "../../X-Swift/SwiftXML"),
         .package(url: "https://github.com/stefanspringer1/SwiftUtilities", from: "0.0.198"),
         .package(url: "https://github.com/stefanspringer1/SwiftWorkflow", from: "1.2.178"),
         .package(url: "https://github.com/stefanspringer1/WorkflowUtilitiesForSwiftXML", from: "0.0.43"),
