@@ -1,18 +1,12 @@
 /**
- sts2reqif.swift
+ libDummy.swift
  
  Year of creation: 2023
  Original authors: Stefan Springer & staff (http://stefanspringer.com)
  
  © Stefan Springer, 2023
  
- Please contact Stefan Springer (http://stefanspringer.com)
- or Beuth Verlag GmbH (https://www.beuth.de) for more information.
- 
- - function: Library for extracting requirements from NISO STS, delivering ReqIF
- - options:
- - conditions:
- - references:
+ Please contact Stefan Springer (http://stefanspringer.com) for more information.
  */
 
 import Foundation
