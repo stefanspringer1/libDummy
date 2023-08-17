@@ -21,7 +21,7 @@ public func dummy_step(during execution: Execution, forSource source: URL) {
         do {
             document = try parseXML(fromURL: source)
         } catch {
-            execution.log(Message(id: "could not XML read document", type: .Fatal, fact: [
+            execution.log(Message(id: "could not read XML document", type: .Fatal, fact: [
                 .en: "could not read XML document [\(source.osPath)]: \(error.localizedDescription)"
             ]))
             return
